@@ -121,7 +121,7 @@ transition: all 0.3s ease;
         top: 100px;
         width: 0vw;
         background-color: rgb(10 10 10 );
-        transition: all 0.4s ease;
+        transition: all 0.3s ease-in-out;
     }
     .main_menu ul{
         flex-direction: column;
@@ -157,10 +157,35 @@ transition: all 0.3s ease;
     .close{
         display: none;
     }
+    .main_menu ul li a{
+        white-space: nowrap;
+    }
 }
 
 @media (max-width:650px) {
-    
+    .icon-header{
+        column-gap: 10px;
+    }
+    .menu_icon_div{
+            width: 30px;
+            height: 30px;
+    }
+    .header-grp{
+        padding: 20px 10px;
+    }
+    .main_menu{
+        top: 80px;
+    }
+    .main_menu ul li a{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:450px) {
+    .cart_icon{
+        display: none;
+    }
 }
 
 
