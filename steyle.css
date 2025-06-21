@@ -3,6 +3,10 @@
     src: url('./font/font1/static/Inter_18pt-SemiBold.ttf');
 }
 @font-face {
+    font-family: 'inter_bold';
+    src: url('./font/font1/static/Inter_24pt-Bold.ttf');
+}
+@font-face {
     font-family: 'bangers';
     src: url('./font/font2/Bangers/Bangers-Regular.ttf');
 }
@@ -98,6 +102,137 @@ transition: all 0.3s ease;
 .search_icon:hover::after,.account_icon:hover::after,.cart_icon:hover::after{
     opacity: 1;
 }
+
+/* slide section*/
+
+.section_slide{
+    max-width: 1600px;
+    margin: 0 auto ;
+}
+.glide{
+    width: 100%;
+    height: 1000px;
+}
+.glide__track{
+    width: 100%;
+    height: 100%;
+}
+.glide__slides{
+    width: 100%;
+    height: 100%;
+}
+.glide__slide{
+    width: 100%;
+    height: 100%;
+}
+.img_glide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img_glide::after{
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: 0.3s ease;
+    pointer-events: none;
+    
+}
+.glide_div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img_glide img{
+    width: 100%;
+    height: 100%;
+    
+}
+.glide_div_div{
+position: absolute;
+left: 0px;
+top: 25%;
+margin: 0px 80px;
+}
+.glide_div_div h3{
+    font-family: 'bangers';
+    font-size: 24px;
+    color: #DC2626;
+    margin-bottom: 16px;
+}
+.glide_div_div  h1{
+    font-family: 'inter_bold';
+    font-size: 96px;
+    color: white;
+    margin-bottom: 16px;
+    line-height: 96px;
+}
+
+.glide_div_div h1 span{
+    color: #DC2626;
+}
+.glide_div_div h1 .spanx{
+    color: rgb(16 185 129);
+    text-shadow: 0 0 10px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
+}
+.glide_div_div p{
+     font-family: 'inter_bold';
+    font-size: 20px;
+    color: rgb(82 82 82 );
+    margin-bottom: 32px;
+    line-height: 20px;
+}
+.slide_btn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 20px;
+
+}
+.shop{
+    padding: 16px 32px;
+    background-color: #DC2626;
+    color: white;
+    font-family: 'inter';
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.shop:hover{
+   transform: scale(1.1);
+}
+.watch{
+    padding: 16px 32px;
+    background-color: black;
+    color: white;
+    font-family: 'inter';
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: all 0.3s ease-in-out;
+}
+.watch:hover{
+    transform: scale(1.1);
+}
+
+.glide__bullet{
+    width: 20px; 
+    height: 20px;
+        margin: 0 0.5em;
+}
+.glide__bullet:hover{
+    border: #DC2626;
+    background-color: #DC2626;
+}
+.glide__bullet--active {
+    background-color: #DC2626;
+}
+
 
 
 @media (max-width:1450px) {

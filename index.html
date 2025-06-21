@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./glide.core.css" />
+    <link rel="stylesheet" href="./glide.theme.css" />
+
     <link rel="stylesheet" href="./steyle.css" />
 
     <script src="./main.js" defer></script>
@@ -56,5 +60,104 @@
         </div>
       </div>
     </header>
+    <section class="section_slide">
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="glide_div">
+                <div class="img_glide">
+                  <img
+                    src="./images/slade1.jpg"
+                    alt=""
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+                <div class="glide_div_div">
+                  <h3>NEW COLLECTION</h3>
+                  <h1>
+                    REFUSE <span>RED</span> TO <br />
+                    <span class="spanx">X</span> BLEND IN
+                  </h1>
+                  <p>Bold designs, urban attitude, everyday comfort</p>
+                  <div class="slide_btn">
+                    <a href="#" class="shop">SHOP NEW</a>
+                    <a href="#" class="watch">WATCH STORY</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="glide_div">
+                <div class="img_glide">
+                  <img
+                    src="./images/slide2.jpg"
+                    alt=""
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+                <div class="glide_div_div">
+                  <h3>AUTHENTIC STYLE</h3>
+                  <h1>
+                    STREET <br /><span>RED</span> CULTURE
+                    <span class="spanx">X</span>
+                  </h1>
+                  <p>Clean silhouettes,modern cuts,statement pieces</p>
+                  <div class="slide_btn">
+                    <a href="#" class="shop">EXPLORE</a>
+                    <a href="#" class="watch">WATCH STORY</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="glide_div">
+                <div class="img_glide">
+                  <img
+                    src="./images/slide3.jpg"
+                    alt=""
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+                <div class="glide_div_div">
+                  <h3>YOUR RULES</h3>
+                  <h1>
+                    YOUR <br />
+                    <span>RED</span> IDENTITY
+                    <span class="spanx">X</span>
+                  </h1>
+                  <p>from city streets to urban adventures</p>
+                  <div class="slide_btn">
+                    <a href="#" class="shop">DISCOVER</a>
+                    <a href="#" class="watch">WATCH STORY</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+          <button class="glide__bullet" data-glide-dir="=2"></button>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+    <script>
+      const config = {
+        type: "carousel",
+        startAt: 0,
+        perView: 1,
+        gap: 0,
+        autoplay: 2000,
+      };
+      new Glide(".glide", config).mount();
+    </script>
   </body>
 </html>

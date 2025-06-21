@@ -1,3 +1,5 @@
+
+
 const divMenu = document.getElementById("menu_id");
 const btnOpen = document.getElementById("openId")
 const btnClose = document.getElementById("closeId")
