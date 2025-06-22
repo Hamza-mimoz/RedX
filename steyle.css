@@ -23,7 +23,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+     position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+   
 }
 .menu_icon_div{
     width: 40px;
@@ -108,6 +113,7 @@ transition: all 0.3s ease;
 .section_slide{
     max-width: 1600px;
     margin: 0 auto ;
+    max-height:1100px ;
 }
 .glide{
     width: 100%;
@@ -239,16 +245,33 @@ margin: 0px 80px;
     .header-grp{
         padding: 30px 60px;
     }
+    .glide{
+    height: 700px;
+    }
+       .img_glide img{
+    object-fit:cover ;
+    
+}
+    .glide_div_div{
+        margin: 0px 60px;
+    }
 }
 @media (max-width:1250px) {
     .header-grp{
         padding: 30px 40px;
         position: relative;
     }
+    .glide_div_div{
+        margin: 0px 40px;
+    }
+ 
 }
 @media (max-width:990px) {
     .header-grp{
-        padding: 30px 20px;
+        padding: 20px;
+    }
+    .glide_div_div{
+        margin: 0px 20px;
     }
     .main_menu{
         position: absolute;
@@ -257,6 +280,7 @@ margin: 0px 80px;
         width: 0vw;
         background-color: rgb(10 10 10 );
         transition: all 0.3s ease-in-out;
+        overflow: hidden
     }
     .main_menu ul{
         flex-direction: column;
@@ -295,6 +319,35 @@ margin: 0px 80px;
     .main_menu ul li a{
         white-space: nowrap;
     }
+
+    .glide_div_div h1{
+        font-size: 76px;
+        line-height: 76px;
+    }
+}
+@media (max-width:750px) {
+    .glide_div_div{
+        top: 12%;
+    }
+     .glide_div_div h1{
+        font-size: 56px;
+        line-height: 56px;
+    }
+    .glide_div_div h3{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .glide_div_div p{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .slide_btn a{
+        font-size: 12px;
+        padding: 12px 28px;
+    }
+    .glide{
+        height: 482px;
+    }
 }
 
 @media (max-width:650px) {
@@ -315,12 +368,38 @@ margin: 0px 80px;
         font-size: 14px;
     }
 
+    .glide_div_div{
+        margin: 0px 10px;
+    }
+    
 }
 
 @media (max-width:450px) {
     .cart_icon{
         display: none;
     }
+    .glide_div_div h1{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .glide_div_div h3{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .glide_div_div p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+   
+    .slide_btn a{
+       
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .glide{
+        height: 382px;
+    }
+
 }
 
 

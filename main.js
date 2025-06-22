@@ -10,10 +10,12 @@ function btnMenu(){
         divMenu.style.width = '0vw';
         btnOpen.style.display = "block"
         btnClose.style.display = "none"
+       
     }else{
         divMenu.style.width = '100vw'
         btnOpen.style.display = "none"
         btnClose.style.display = "block"
+        
     }
         
     
