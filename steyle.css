@@ -155,7 +155,7 @@ transition: all 0.3s ease;
 .img_glide img{
     width: 100%;
     height: 100%;
-    
+    object-fit: cover;
 }
 .glide_div_div{
 position: absolute;
@@ -239,6 +239,61 @@ margin: 0px 80px;
     background-color: #DC2626;
 }
 
+/* product section*/
+
+
+.product_section{
+    max-width: 1600px;
+    margin: 0px auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 20px;
+    padding: 40px 80px;
+}
+.product_head div{
+    max-width: 672px;
+}
+.product_head div h2{
+    font-family: "bangers";
+    font-size: 60px;
+    line-height: 60px;
+    color: #DC2626;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.product_head div h2 span{
+    color: rgb(16 185 129 );
+    text-shadow: 0 0 10px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
+}
+.product_head div p{
+    color: rgb(82 82 82 );
+    font-size: 20px;
+    text-align: center;
+    font-family: "inter";
+}
+.btns_product{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 20px;
+}
+.btns_product button{
+    font-family: "inter";
+    font-size: 16px;
+    color: rgb(82 82 82 );
+    background-color: hsl(210 ,40% ,4%);
+    padding: 10px 24px;
+    border: 1px solid rgb(82 82 82 );
+    border-radius: calc(0.5rem - 2px);
+}
+.btns_product .active{
+    color: white;
+    border-color: #DC2626;
+    background-color: #DC2626;
+}
 
 
 @media (max-width:1450px) {
