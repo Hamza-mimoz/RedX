@@ -512,6 +512,132 @@ margin: 0px 80px;
     
 }
 
+.btn_load{
+    font-family: "inter";
+    font-size: 16px;
+    padding: 16px 32px;
+    color: white;
+    background-color: #DC2626;
+    border-radius: 10px;
+    border: 1px solid #DC2626;
+    transition: all 0.3s ease;
+}
+
+.btn_load:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+/* about section*/
+
+.about_section{
+    background-color: black;
+    max-width: 1600px;
+    margin: 0px auto;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_about{
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pstor{
+    font-family: "inter";
+    font-size: 16px;
+    line-height: 16px;
+    color: #10B981;
+}
+.div_about h2{
+    font-family: "bangers";
+    font-size: 48px;
+    line-height: 48px;
+    padding: 24px 0px;
+    color: #DC2626;
+}
+
+.div_about h2 span{
+    color: #10B981;
+    text-shadow: 0 0 10px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
+}
+
+.Pabout{
+    font-family: "inter";
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(82, 82, 82);
+    margin-top: 32px;
+}
+
+.icons_about{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0px 0px;
+    padding: 32px 0px;
+}
+
+.icon_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    justify-content: center;
+}
+.img_icon_about{
+    width: 32px;
+    height: 32px;
+}
+
+.img_icon_about img {
+    width: 100%;
+    height: 100%;
+}
+
+.icon_about h3{
+    font-family: "inter";
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+
+}
+
+.icon_about p{
+    font-family: "inter";
+    font-size: 16px;
+    line-height: 16px;
+    color: rgb(82, 82, 82);
+}
+
+.div_about button{
+    font-family: "inter";
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 32px;
+    margin-top: 32px;
+    color: white;
+    background-color: #DC2626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #DC2626;
+    transition: all 0.3s ease;
+}
+
+.div_about button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
 @media (max-width:1450px) {
     .product_section{
@@ -529,6 +655,9 @@ margin: 0px 80px;
 }
     .glide_div_div{
         margin: 0px 60px;
+    }
+    .about_section{
+        padding: 40px 60px;
     }
 }
 @media (max-width:1250px) {
@@ -549,6 +678,9 @@ margin: 0px 80px;
     }
     .product_section{
         padding: 40px 40px;
+    }
+     .about_section{
+        padding: 30px 40px;
     }
     
  
@@ -632,6 +764,10 @@ margin: 0px 80px;
         height: 550px;
         
     }
+
+    .about_section{
+        padding: 20px 20px;
+    }
 }
 @media (max-width:750px) {
     .glide_div_div{
@@ -699,6 +835,32 @@ margin: 0px 80px;
         width: 400px;
         height: 500px;
         
+    }
+
+    .btn_load{
+        font-size: 12px;
+        line-height: 12px;
+        padding: 10px 16px;
+    }
+
+    .div_about h2{
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .Pabout{
+        font-size: 16px;
+    }
+
+    .icons_about{
+        justify-content: center;
+        column-gap: 30px;
+        margin-top: 16px;
+        padding-top: 16px;
+    }
+    .div_about button{
+        font-size: 14px;
+        padding: 10px 15px;
     }
     
 }
@@ -772,6 +934,43 @@ margin: 0px 80px;
         font-size: 10px;
         line-height: 10px;
         padding: 5px 10px;
+    }
+
+    .img_icon_about {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon_about h3{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .icon_about p {
+         font-size: 10px;
+        line-height: 12px;
+    }
+
+    .Pstor {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .div_about h2 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .Pabout{
+            font-size: 14px;
+            line-height: 20px;
+            margin: 10px;
+    }
+    .div_about button{
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .div_about button span{
+        display: none;
     }
 
 }
