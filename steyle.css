@@ -709,6 +709,76 @@ margin: 0px 80px;
     cursor: pointer;
 }
 
+/* join section*/
+
+.join_section{
+    max-width: 1600px;
+    margin: 0px auto;
+    padding: 40px 80px;
+    background-color: black;
+    border-top: 1px solid rgb(82, 82, 82);
+    border-bottom: 1px solid rgb(82, 82, 82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+.join_div h3{
+font-family: "bangers";
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0px;
+    color: #DC2626;
+}
+
+.join_div h3 span{
+    color: #10B981;
+    text-shadow: 0 0 10px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
+}
+
+.join_div p{
+    font-family: "inter";
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(82, 82, 82);
+}
+.join_div form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.join_div form input{
+    padding: 8px 12px;
+    background-color: black;
+    color: rgb(82, 82, 82);
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 10px;
+    font-size: 18px;
+}
+.join_div form button{
+        font-family: "inter";
+    font-size: 18px;
+    color: white;
+    background-color: #DC2626;
+    padding: 8px 12px;
+    border: 1px solid #DC2626;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.join_div form button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 @media (max-width:1450px) {
     .product_section{
         padding: 40px 60px;
@@ -731,6 +801,9 @@ margin: 0px 80px;
     }
 
     .mark_section{
+        padding: 40px 60px;
+    }
+    .join_section{
         padding: 40px 60px;
     }
 }
@@ -759,7 +832,9 @@ margin: 0px 80px;
      .mark_section{
         padding: 30px 40px;
     }
-    
+    .join_section{
+        padding: 30px 40px;
+    }
  
 }
 @media (max-width:990px) {
@@ -847,6 +922,9 @@ margin: 0px 80px;
     }
 
      .mark_section{
+        padding: 20px;
+    }
+    .join_section{
         padding: 20px;
     }
 }
@@ -960,6 +1038,35 @@ margin: 0px 80px;
     .mark_div div{
         padding: 32px;
     }
+
+    .join_div{
+        padding: 20px 10px;
+    }
+    .join_div h3 {
+                font-size: 26px;
+        line-height: 26px;
+    }
+
+    .join_div p{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .join_div form{
+        flex-direction: column;
+        width: 100%;
+    }
+    .join_div form input{
+   
+     font-size: 16px;
+        line-height: 16px;
+        width: 100%;
+}
+.join_div form button{
+      font-size: 14px;
+        line-height: 14px;
+        width: 100%;
+}
 
 }
 
