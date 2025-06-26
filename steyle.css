@@ -638,6 +638,76 @@ margin: 0px 80px;
     transform: scale(1.1);
     cursor: pointer;
 }
+ 
+
+/* mark section*/
+.mark_section{
+    max-width: 1600px;
+    margin: 0px auto;
+    padding: 40px 80px ;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mark_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(220 38 38 / 0.3);
+
+    border: 1px solid #DC2626;
+    border-radius: 10px;
+}
+
+.mark_div div{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    text-align: center;
+    padding: 48px;
+}
+
+.mark_div div h3{
+    font-family: "bangers";
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0px;
+    color: #DC2626;
+}
+
+.mark_div div h3 span{
+    color: #10B981;
+    text-shadow: 0 0 10px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
+}
+
+.mark_div div p{
+    font-family: "inter";
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(82, 82, 82);
+}
+
+.mark_div div button{
+    font-family: "inter";
+    font-size: 18px;
+    color: white;
+    background-color: #DC2626;
+    padding: 16px 32px;
+    border: 1px solid #DC2626;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.mark_div div button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
 @media (max-width:1450px) {
     .product_section{
@@ -657,6 +727,10 @@ margin: 0px 80px;
         margin: 0px 60px;
     }
     .about_section{
+        padding: 40px 60px;
+    }
+
+    .mark_section{
         padding: 40px 60px;
     }
 }
@@ -680,6 +754,9 @@ margin: 0px 80px;
         padding: 40px 40px;
     }
      .about_section{
+        padding: 30px 40px;
+    }
+     .mark_section{
         padding: 30px 40px;
     }
     
@@ -767,6 +844,10 @@ margin: 0px 80px;
 
     .about_section{
         padding: 20px 20px;
+    }
+
+     .mark_section{
+        padding: 20px;
     }
 }
 @media (max-width:750px) {
@@ -862,7 +943,24 @@ margin: 0px 80px;
         font-size: 14px;
         padding: 10px 15px;
     }
-    
+    .mark_div div h3{
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .mark_div div p{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .mark_div div button{
+        font-size: 14px;
+        line-height: 14px;
+        padding: 8px 16px;
+    }
+    .mark_div div{
+        padding: 32px;
+    }
+
 }
 
 @media (max-width:450px) {
@@ -972,7 +1070,9 @@ margin: 0px 80px;
     .div_about button span{
         display: none;
     }
-
+     .mark_div div{
+        padding: 20px;
+    }
 }
 
 
