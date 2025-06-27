@@ -183,7 +183,7 @@ margin: 0px 80px;
 }
 .glide_div_div h1 .spanx{
     color: rgb(16 185 129);
-    text-shadow: 0 0 10px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
+    text-shadow: 0 0 0.1px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
 }
 .glide_div_div p{
      font-family: 'inter_bold';
@@ -267,7 +267,7 @@ margin: 0px 80px;
 }
 .product_head div h2 span{
     color: rgb(16 185 129 );
-    text-shadow: 0 0 10px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
+    text-shadow: 0 0 0.1px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
 }
 .product_head div p{
     color: rgb(82 82 82 );
@@ -565,7 +565,7 @@ margin: 0px 80px;
 
 .div_about h2 span{
     color: #10B981;
-    text-shadow: 0 0 10px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
+    text-shadow: 0 0 0.1px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
 }
 
 .Pabout{
@@ -683,7 +683,7 @@ margin: 0px 80px;
 
 .mark_div div h3 span{
     color: #10B981;
-    text-shadow: 0 0 10px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
+    text-shadow: 0 0 0.1px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
 }
 
 .mark_div div p{
@@ -741,7 +741,7 @@ font-family: "bangers";
 
 .join_div h3 span{
     color: #10B981;
-    text-shadow: 0 0 10px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
+    text-shadow: 0 0 0.1px #10B981, 0 0 20px #10B981, 0 0 30px #10B981;
 }
 
 .join_div p{
