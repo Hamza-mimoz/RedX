@@ -779,6 +779,139 @@ font-family: "bangers";
     transform: scale(1.1);
 }
 
+.footer_grp{
+    max-width: 1600px;
+    margin: 0px auto;
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: black;
+    border-bottom: 1px solid rgb(82, 82, 82);
+}
+.footer_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    row-gap: 10px;
+    padding-right: 200px;
+}
+
+.footer_left h3{
+        font-family: 'bangers';
+    color: #DC2626;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    transform: rotate(-5deg);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+.footer_left h3 span{
+    color:  rgb(16 185 129 );
+}
+
+.footer_left p{
+    font-family: "inter";
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(82, 82, 82);
+    margin-bottom: 10px;
+}
+
+.footer_icons{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 30px;
+}
+.footer_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(210 40% 4%);
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 10px;
+}
+.footer_icon img{
+    width: 20px;
+    height: 20px;
+}
+
+.footer_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 50%;
+}
+
+.footer_right1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 20px;
+}
+
+.footer_right1 h4{
+    font-family: "inter";
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+}
+
+.footer_right1 ul{
+    list-style: none;
+    
+}
+
+.footer_right1 ul li{
+    margin-bottom: 10px;
+}
+.footer_right1 ul li a{
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    font-size: 14px;
+    line-height: 14px;
+    font-family: "inter_bold";
+    text-align: start;
+
+}
+.footer_right2{
+        display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 20px;
+}
+
+.footer_right2 h4{ 
+       font-family: "inter";
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 10px;
+}
+
+.contact p{
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    font-size: 14px;
+    line-height: 14px;
+    font-family: "inter_bold";
+    text-align: start;
+}
+
+
 @media (max-width:1450px) {
     .product_section{
         padding: 40px 60px;
@@ -804,6 +937,9 @@ font-family: "bangers";
         padding: 40px 60px;
     }
     .join_section{
+        padding: 40px 60px;
+    }
+    .footer_grp {
         padding: 40px 60px;
     }
 }
@@ -835,7 +971,19 @@ font-family: "bangers";
     .join_section{
         padding: 30px 40px;
     }
- 
+     .footer_grp {
+        padding: 30px 40px;
+    }
+    .footer_right{
+        justify-content: start;
+        column-gap: 100px;
+    }
+    .footer_right2{
+        max-width: 200px;
+    }
+    .footer_left{
+        padding-right: 100px;
+    }
 }
 @media (max-width:990px) {
     .header-grp{
@@ -927,6 +1075,23 @@ font-family: "bangers";
     .join_section{
         padding: 20px;
     }
+    
+    .footer_grp{
+        padding: 20px;
+    }
+    .footer_grp{
+        flex-direction: column;
+        row-gap: 50px;
+        align-items: start;
+    }
+
+    .footer_left{
+        width: 80%;
+    }
+    .footer_right{
+        justify-content: space-between;
+        width: 80%;
+    }
 }
 @media (max-width:750px) {
     .glide_div_div{
@@ -965,6 +1130,12 @@ font-family: "bangers";
     }
     .product_head div {
         margin-bottom: 40px;
+    }
+    .footer_right{
+        width: 100%;
+    }
+    .footer_left{
+        padding: 0px;
     }
 }
 
@@ -1066,6 +1237,16 @@ font-family: "bangers";
       font-size: 14px;
         line-height: 14px;
         width: 100%;
+}
+
+.footer_right2 h4, .footer_right1 h4 {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.contact p, .footer_right1 ul li a  {
+    font-size: 12px;
+    
 }
 
 }
@@ -1180,6 +1361,18 @@ font-family: "bangers";
      .mark_div div{
         padding: 20px;
     }
+    .footer_right2 h4, .footer_right1 h4 {
+    font-size: 14px;
+    line-height: 14px;
+    white-space: nowrap;
+}
+
+.contact p, .footer_right1 ul li a  {
+    font-size: 10px;
+    
+}
+
+
 }
 
 
